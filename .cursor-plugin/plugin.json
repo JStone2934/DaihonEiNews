@@ -5,7 +5,10 @@
   "author": {
     "name": "JStone2934"
   },
+  "homepage": "https://github.com/JStone2934/DaihonEiNews#readme",
   "repository": "https://github.com/JStone2934/DaihonEiNews",
+  "license": "MIT",
+  "logo": "assets/logo.png",
   "skills": "./skills/",
   "commands": "./commands/",
   "keywords": ["war-report", "satire", "skill", "daihonei-news", "大本营"]

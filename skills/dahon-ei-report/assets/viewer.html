@@ -90,6 +90,7 @@
       .tag { color: var(--seal); font-weight: 800; }
       .empty { padding: 80px 0; text-align: center; color: var(--muted); font-size: 1.2rem; }
       footer { margin-top: 24px; padding-top: 10px; border-top: 1px solid var(--ink); color: var(--muted); font-size: .85rem; }
+      .disclaimer { margin: 6px 0 0; font-size: .8rem; line-height: 1.5; }
       @media (max-width: 620px) {
         header { grid-template-columns: 1fr; text-align: center; }
         .brand, .meta { text-align: center; }
@@ -109,7 +110,10 @@
         <div class="meta"><p>樂觀估計專刊</p><p id="issue"></p><time id="updated"></time></div>
       </header>
       <div id="content"></div>
-      <footer>dahon-ei-report · 本报仅存于当前设备的 ~/.daihonei-news</footer>
+      <footer>
+        <p>dahon-ei-report · 本报仅存于当前设备的 ~/.daihonei-news</p>
+        <p class="disclaimer">本作品纯属虚构、仅供娱乐，讽刺对象为「过于乐观的进度估计」，与任何真实事件无关。作者坚决反对一切战争、侵略与暴行。</p>
+      </footer>
     </main>
     <script>
       const encoded = "__DAIHONEI_DATA_BASE64__";
