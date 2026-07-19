@@ -1,4 +1,4 @@
-# FightNews · 大本営発表
+# DaihonEiNews · 大本営発表
 
 把 Cursor Agent 过于乐观的估计，戏仿成「大本营发表」式战报，在本仓库新闻站出刊。
 

@@ -25,8 +25,8 @@ description: >-
 
 3. **夸张成战报**  
    按 [style.md](style.md) 产出：
-   - `headline`
-   - `lede`
+   - `headline` / `headline_ja`（中文标题 + 日语译）
+   - `lede` / `lede_ja`（中文本文 4–6 句 + 对应日语译，用以填满版面）
    - `source_claim`（原文主张）
    - `irony_tag`
 
