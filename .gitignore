@@ -4,3 +4,4 @@ web/
 *.vsix
 .DS_Store
 *.local
+.TOKEN
