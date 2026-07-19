@@ -84,8 +84,9 @@
       .archive-title { margin: 24px 0 12px; font-size: 1.25rem; letter-spacing: .3em; }
       .archive { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); border: 1px solid var(--ink); }
       .archive article { padding: 16px; border: 1px solid var(--ink); }
-      .archive h3 { margin: 8px 0; font-size: 1.35rem; line-height: 1.35; }
+      .archive h3 { margin: 8px 0 4px; font-size: 1.35rem; line-height: 1.35; }
       .archive p { margin: 6px 0 0; color: var(--muted); line-height: 1.55; }
+      .headline-ja-sm { margin: 0 0 6px; color: var(--muted); font-size: .92rem; line-height: 1.4; }
       .tag { color: var(--seal); font-weight: 800; }
       .empty { padding: 80px 0; text-align: center; color: var(--muted); font-size: 1.2rem; }
       footer { margin-top: 24px; padding-top: 10px; border-top: 1px solid var(--ink); color: var(--muted); font-size: .85rem; }
@@ -152,6 +153,7 @@
             const card = add(grid, "article");
             add(card, "span", "tag", `${escapeText(item.irony_tag)} · 第${data.dispatches.length - index - 1}號`);
             add(card, "h3", "", escapeText(item.headline));
+            add(card, "p", "headline-ja-sm", escapeText(item.headline_ja));
             add(card, "p", "", escapeText(item.source_claim));
             add(card, "p", "", dateText(item.created_at));
           });
