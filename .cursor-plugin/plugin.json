@@ -1,0 +1,9 @@
+{
+  "name": "fight-news",
+  "version": "1.0.0",
+  "description": "大本营战报：从对话抽取乐观主张，夸张成战报标题，写入 FightNews 新闻站出刊。",
+  "author": {
+    "name": "FightNews"
+  },
+  "keywords": ["war-report", "satire", "skill", "fight-news", "大本营"]
+}
