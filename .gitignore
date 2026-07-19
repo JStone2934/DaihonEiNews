@@ -1,6 +1,5 @@
 node_modules/
-web/node_modules/
-web/dist/
-web/tsconfig.tsbuildinfo
+web/
+.kagent/
 .DS_Store
 *.local
