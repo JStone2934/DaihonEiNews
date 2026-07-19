@@ -1,0 +1,15 @@
+{
+  "name": "daihonei-news",
+  "version": "2.0.0",
+  "description": "把 Agent 的乐观估计戏仿成大本营战报，保存并展示在用户本机。",
+  "author": {
+    "name": "JStone2934"
+  },
+  "homepage": "https://github.com/JStone2934/DaihonEiNews#readme",
+  "repository": "https://github.com/JStone2934/DaihonEiNews",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "skills": "./skills/",
+  "commands": "./commands/",
+  "keywords": ["war-report", "satire", "skill", "daihonei-news", "大本营"]
+}

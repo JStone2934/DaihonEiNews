@@ -1,0 +1,52 @@
+{
+  "name": "daihonei-news",
+  "displayName": "DaihonEiNews",
+  "description": "把 Cursor Agent 的乐观估计戏仿成大本营战报，保存并展示在用户本机。仅在 Cursor 中通过 Skill 生效。",
+  "version": "2.0.0",
+  "publisher": "JStone2934",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "keywords": [
+    "cursor",
+    "skill",
+    "war-report",
+    "satire",
+    "daihonei-news",
+    "大本营"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JStone2934/DaihonEiNews.git"
+  },
+  "homepage": "https://github.com/JStone2934/DaihonEiNews#readme",
+  "bugs": {
+    "url": "https://github.com/JStone2934/DaihonEiNews/issues"
+  },
+  "icon": "assets/logo.png",
+  "main": "./extension.js",
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "daihoneiNews.showInfo",
+        "title": "DaihonEiNews: Show Install Info"
+      }
+    ]
+  },
+  "scripts": {
+    "bundle": "node scripts/build-vsix-bundle.mjs",
+    "package": "npm run bundle && npx --yes @vscode/vsce package --no-dependencies",
+    "publish": "npm run bundle && npx --yes @vscode/vsce publish --no-dependencies"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.85.0",
+    "@vscode/vsce": "^3.6.0"
+  }
+}
