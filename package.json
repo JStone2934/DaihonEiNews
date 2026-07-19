@@ -2,7 +2,7 @@
   "name": "daihonei-news",
   "displayName": "DaihonEiNews",
   "description": "把 Cursor Agent 的乐观估计戏仿成大本营战报，保存并展示在用户本机。仅在 Cursor 中通过 Skill 生效。",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "publisher": "JStone2934",
   "license": "MIT",
   "engines": {

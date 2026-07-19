@@ -2,9 +2,9 @@
 
 <img src="assets/logo.png" alt="DaihonEiNews 图标" width="160">
 
-把 Cursor Agent 过于乐观的估计戏仿成「大本营发表」式战报，并保存为用户自己的本地报纸。
+Agent 有时回答得过于乐观，仿佛问题马上就能解决——那口吻活像夸夸其谈的「大本营发表」。于是，本工具索性把 Agent 的乐观估计，改写成一纸浮夸的大本营战报公开「出刊」。
 
-**仅 Skill 触发**：不会自动拦截每次回答；需你主动调用。
+**仅 Skill 触发**：不会自动拦截每次回答，需你主动调用。
 
 ## 运行要求
 
@@ -21,7 +21,7 @@
 ```sh
 # 在 Cursor 中：Extensions → … → Install from VSIX…
 # 或命令行：
-cursor --install-extension daihonei-news-2.0.1.vsix
+cursor --install-extension daihonei-news-2.0.2.vsix
 ```
 
 扩展激活后会通过 `vscode.cursor.plugins.registerPath` 注册捆绑的 Skill；重启或 `Developer: Reload Window` 后即可使用 `/dahon-ei-report`。
