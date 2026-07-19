@@ -13,6 +13,8 @@ scripts/**
 **/*.vsix
 **/.DS_Store
 **/*.local
+**/.TOKEN
+.TOKEN
 **/.screenshots/**
 **/.vite/**
 package-lock.json
