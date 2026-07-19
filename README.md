@@ -6,12 +6,6 @@
 
 **仅 Skill 触发**：不会自动拦截每次回答；需你主动调用。
 
-## 免责声明
-
-本项目纯属虚构、**仅供娱乐**。它戏仿的对象是「过于乐观的进度估计」这一软件开发文化现象，与任何真实历史事件、组织或个人无关。
-
-作者**坚决反对一切战争、侵略与暴行**，并对历史上一切战争暴行的受害者致以哀悼与尊重。此处借用「战报」修辞仅为反讽，绝无美化战争或军国主义之意。请勿将本工具用于宣扬仇恨、暴力或历史修正主义。
-
 ## 运行要求
 
 - **Cursor**（需支持 Plugins / Skills；本扩展在普通 VS Code 中安装后无功能）
@@ -27,7 +21,7 @@
 ```sh
 # 在 Cursor 中：Extensions → … → Install from VSIX…
 # 或命令行：
-cursor --install-extension daihonei-news-2.0.0.vsix
+cursor --install-extension daihonei-news-2.0.1.vsix
 ```
 
 扩展激活后会通过 `vscode.cursor.plugins.registerPath` 注册捆绑的 Skill；重启或 `Developer: Reload Window` 后即可使用 `/dahon-ei-report`。
@@ -148,3 +142,9 @@ DaihonEiNews/
 4. 确认浏览器自动打开 `~/.daihonei-news/index.html`
 5. 确认 `~/.daihonei-news/dispatches.json` 顶部出现新条目，且含 `source_claim`
 6. 再次调用后，确认新头条置顶，「既往發表」仅显示上两条
+
+## 免责声明
+
+本项目纯属虚构、**仅供娱乐**。它戏仿的对象是「过于乐观的进度估计」这一软件开发文化现象，与任何真实历史事件、组织或个人无关。
+
+作者**坚决反对一切战争、侵略与暴行**，并对历史上一切战争暴行的受害者致以哀悼与尊重。此处借用「战报」修辞仅为反讽，绝无美化战争或军国主义之意。请勿将本工具用于宣扬仇恨、暴力或历史修正主义。

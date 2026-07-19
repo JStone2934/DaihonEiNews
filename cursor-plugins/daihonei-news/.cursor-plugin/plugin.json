@@ -1,6 +1,6 @@
 {
   "name": "daihonei-news",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "把 Agent 的乐观估计戏仿成大本营战报，保存并展示在用户本机。",
   "author": {
     "name": "JStone2934"
